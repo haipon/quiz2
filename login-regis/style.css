@@ -1,0 +1,143 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* General styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 30px;
+}
+
+header h1 {
+    color: #6F3F3A;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #6F3F3A;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+/* Dropdown styling */
+.dropdown {
+    margin-top: 6px;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown .dropbtn {
+    color: #6F3F3A;
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #f2f2eb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a {
+    color: #6F3F3A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #d2bba4;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+
+.login {
+    background-color: #d7e1f3;
+    padding: 7px 15px;
+    border-radius: 23%;
+}
+
+.container{
+    margin-top: 100px;
+    max-width: 600px;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #eed2bb;
+    border-radius: 15px;
+}
+
+.form-group{
+    margin-bottom:30px;
+}
+
+.click{
+    text-decoration: none;
+    text-align: right;
+}
+
+.custom-btn {
+    background-color: #7c5325; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.custom-btn:hover {
+    background-color: #614411; 
+}
+
+.click {
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.click a {
+    color: #955818; 
+    text-decoration: none; 
+    font-weight: 500;
+}
+
+.click a:hover {
+    text-decoration: underline; 
+}
